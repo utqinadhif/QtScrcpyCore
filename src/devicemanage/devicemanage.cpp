@@ -37,16 +37,6 @@ int DeviceManage::getDeviceCount()
     return m_devices.size();
 }
 
-int DeviceManage::getDeviceCount()
-{
-    return m_devices.size();
-}
-
-int DeviceManage::getDeviceCount()
-{
-    return m_devices.size();
-}
-
 bool DeviceManage::connectDevice(qsc::DeviceParams params)
 {
     if (params.serial.trimmed().isEmpty()) {

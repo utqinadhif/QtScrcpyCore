@@ -15,6 +15,7 @@ public:
     virtual ~DeviceManage();
 
     virtual QPointer<IDevice> getDevice(const QString& serial) override;
+    virtual int getDeviceCount() override;
 
     bool connectDevice(qsc::DeviceParams params) override;
     bool disconnectDevice(const QString &serial) override;
